@@ -1,0 +1,31 @@
+.care{
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 128px;
+}
+.care__content{
+    max-width: 542px;
+}
+
+.care__title{
+    line-height: 48px;
+}
+.care__text1{
+    margin: 16px auto 28px auto;
+    line-height: 32px;
+}
+
+.care__text2{
+    position: relative;
+}
+
+.care__text2::after{
+    position: absolute;
+    content: "";
+    background:#FFD042;
+    width: 250px;
+    height: 16px;
+    top: 13px;
+    left: 0;
+    z-index: -1;
+}

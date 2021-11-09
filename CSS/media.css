@@ -1,0 +1,214 @@
+@media screen and (max-width:1200px){
+
+    /* body.lock{
+        overflow: hidden;
+    } */
+
+    
+    header{
+        padding: 10px 31px;
+        
+    }
+    .header::before{
+        z-index: 2;
+    }    
+    .logo{
+        z-index: 3;
+    }
+
+    .header__burger{
+        display: block;
+        position: relative;
+        width: 30px;
+        height: 20px;
+        margin-right: 20px;
+        z-index: 3;
+    }
+
+
+    .header__burger span{
+        position: absolute;
+        background: #212B31;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        top: 9px;
+        transition: all 0.3s ease 0s;
+    }
+    .header__burger::after,
+    .header__burger::before{
+        content: '';
+        background: #212B31;
+        position:absolute;
+        width: 100%;
+        height: 2px;
+        left: 0;
+        transition: all 0.3s ease 0s;
+    }
+    .header__burger::before{
+        top: 0;
+    }
+    .header__burger::after{
+        bottom: 0;
+    }
+
+    .header__right{
+        position: fixed;
+        top: -100%;
+        right: 0;
+        width: 75%;
+        height: 450px;
+        background: rgba(255, 194, 45, 0.9);
+        border-radius: 0 0 0 20%;
+        padding: 100px 0 0 20px;
+        transition: all 0.3s ease 0s;
+        
+    }
+    .header__right.active{
+        top: 0;
+
+    }
+
+    .header__right, .header__nav{
+        display: block;
+    }
+    .header__item{
+        margin-bottom: 22px;   
+    }
+    
+    .header__link, .header__btn{
+        font-size: 20px;
+        color: #fff;
+    }
+
+    .header__burger.active::after{
+        transform: rotate(45deg);
+        bottom: 9px;
+    }
+    .header__burger.active::before{
+        transform: rotate(-45deg);
+        top: 9px;
+    }
+    .header__burger.active span{
+        transform: scale(0);
+    }
+    header.active::before{
+        background: #f5f5f5;
+    }
+
+
+    .security__footer{
+        padding: 25px;
+        display: block;
+    }
+
+    .security__f_tx{
+        margin: 15px;
+    }
+
+    .black{
+        padding: 10%;
+    }
+    .black__content_top{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .black__content_bottom{
+        justify-content: center;
+    }
+
+
+    .stages__content{
+        justify-content: center;
+    }
+    .stages__m_tx{
+        max-width: 800px;
+        margin: 2.9% auto 8.7% auto;
+    }
+    .stages__img{
+        text-align: center;
+    }
+
+
+    .comment__content{
+        justify-content: center;
+    }
+
+    .tx, .tx2, .tx3{
+        max-width: 600px;
+        margin: 10px auto 30px auto;
+    }
+}
+
+@media screen and (max-width:768px){
+    .hero__title{
+       font-size: 36px; 
+    }
+    .yellow__title{
+        font-size: 32px;
+        line-height: 48px;
+    }
+    .comment__text{
+        font-size: 20px;
+        line-height: 32px;
+    }
+    .content__right_comm{
+        padding: 30px 46px 46px 43px;
+    }
+    .swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction{
+        bottom: 26px;
+    }
+    .comment__text::before{
+        left: -23px;
+    }
+
+
+    .top__blok{
+        margin: 0 50px;
+    }
+    .footer__tx, .footer__tx_2{
+        margin-bottom: 5px;
+    }
+
+    .t2{
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .text1{
+        line-height: 28px;
+    }
+
+    .black__btn{
+        padding: 7px 18px;
+    }
+    .white__btn{
+        padding: 7px 18px;
+    }
+}
+
+@media screen and (max-width:468px){
+    .black__btn, .white__btn{
+        margin-top: 10px;
+    }
+    .yellow__title{
+        margin-bottom: 34px;
+        font-size: 28px;
+        line-height: 36px;
+    }
+}
+
+@media screen and (max-width:335px){
+    .delivery__f_tx::after{
+        width: 172px;
+    }
+    .delivery__f_tx::before{
+        position: absolute;
+        content: "";
+        background: #FFD042;
+        width: 116px;
+        height: 16px;
+        top: 38px;
+        left: -31px;
+        z-index: -1;        
+    }
+}

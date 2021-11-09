@@ -1,0 +1,18 @@
+.hero{
+    text-align: center;
+    padding-top: 174px;
+}
+
+.hero__title{
+    color: #212B31;
+    font-size: 48px;
+    max-width: 818px;
+    margin: 0 auto;   
+}
+
+.hero__btns{
+    margin: 30px auto 88px auto;
+}
+.hero__img2{
+    margin-top: 36px;
+}

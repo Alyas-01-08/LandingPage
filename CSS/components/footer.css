@@ -1,0 +1,36 @@
+footer{
+    max-width: 1056px;
+    margin: 160px auto 0 auto;
+    padding: 0 15px 33px 15px;
+}
+
+.top__box{
+    justify-content: space-between;
+
+}
+
+.footer__title{
+    margin-bottom: 22px;
+    color: #212B31;
+}
+.footer__tx{
+    margin-bottom: 8px;
+}
+.footer__tx_2{
+   margin-bottom: 10px; 
+}
+.footer__tx_3{
+    max-width: 160px;
+}
+
+.fb{
+    margin-top: 20px;
+}
+
+.footer__line{
+    margin: 160px auto 31px auto;
+}
+
+.bottom__box{
+    justify-content: space-between;
+}

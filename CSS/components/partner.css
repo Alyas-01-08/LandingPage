@@ -1,0 +1,10 @@
+.partners{
+    max-width: 1056px; 
+    margin: 0 auto;
+    text-align: center;
+}
+.partners__content{
+    justify-content: space-around;
+}
+
+

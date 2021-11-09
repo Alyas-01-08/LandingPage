@@ -1,0 +1,17 @@
+.advantage{
+    text-align: center;
+    margin-top: 148px;
+}
+.advantage__box{
+    justify-content: space-around;
+}
+.advantage__block{
+    max-width: 325px;
+}
+.advantage__title{
+    margin: 20px auto 10px auto;
+}
+
+.advantage__block{
+    margin-bottom: 35px;
+}

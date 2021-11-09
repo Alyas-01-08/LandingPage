@@ -1,0 +1,226 @@
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.near{
+    display: flex;
+}
+.container{
+    max-width: 1150px;
+    margin: 0 auto;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+.hero__bus{
+    transform: translateX(-100%);
+    margin: 0 30px;
+    animation-name: busses;
+    animation-duration: 5s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+}
+@keyframes busses{
+    0%{
+        transform: translateX(-109%);
+    }
+    100%{
+        transform: translateX(0%);
+    }
+}
+
+
+.hero__img2{
+    width: 100%;
+    overflow: hidden;
+}
+.black__btn{
+    background: #212B31;
+    color: #fff;
+    padding: 13px 25px;
+    border-radius: 4px;
+    border-style: none;
+    font-family: 'Arial';
+    font-size: 17px;
+    margin: auto 8px;
+    position:relative;
+    overflow:hidden;
+    transition:0.2s;
+}
+.white__btn{
+    background: #fff;
+    color: #FFC22D;
+    padding: 13px 25px;
+    border-radius: 4px;
+    border-style: none;
+    margin: auto 8px;
+    font-size: 18px;
+    position:relative;
+    overflow:hidden;
+    transition:0.2s;
+}
+
+.btn__line{
+    position: absolute;
+    display: block;
+}
+.black__btn_line-top{
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(90deg,transparent, #5919bf);
+}
+.black__btn:hover .black__btn_line-top{
+    left: 100%;
+    transition: 0.5s;
+    transition-delay: 0.15s;
+}
+.black__btn_line-bottom{
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(270deg,transparent, #5919bf);
+}
+.black__btn:hover .black__btn_line-bottom{
+    right: 100%;
+    transition: 0.5s;
+    transition-delay: 0.15s;
+}
+.black__btn_line-left{
+    bottom: -100%;
+    left: 0;
+    width: 4px;
+    height: 100%;
+    background: linear-gradient(0deg,transparent, #5919bf);
+}
+.black__btn:hover .black__btn_line-left{
+    bottom: 100%;
+    transition: 0.5s;
+    transition-delay: 0s1
+}
+.black__btn_line-reight{
+    top: -100%;
+    right: 0;
+    width: 4px;
+    height: 100%;
+    background: linear-gradient(180deg,transparent, #5919bf);
+}
+.black__btn:hover .black__btn_line-reight{
+    top: 100%;
+    transition: 0.5s;
+    transition-delay: 0s1
+}
+
+.black__btn:hover{
+    box-shadow: 0 0 10px #5919bf,0 0 40px #5919bf;
+    background: #5919bf;
+    transition-delay: 1s;
+}
+
+
+
+
+.white__btn_line-top{
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(90deg,transparent, #FFC22D);
+}
+.white__btn:hover .white__btn_line-top{
+    left: 100%;
+    transition: 0.5s;
+    transition-delay: 0.15s;
+}
+.white__btn_line-bottom{
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(270deg,transparent, #FFC22D);
+}
+.white__btn:hover .white__btn_line-bottom{
+    right: 100%;
+    transition: 0.5s;
+    transition-delay: 0.15s;
+}
+.white__btn_line-left{
+    bottom: -100%;
+    left: 0;
+    width: 4px;
+    height: 100%;
+    background: linear-gradient(0deg,transparent, #FFC22D);
+}
+.white__btn:hover .white__btn_line-left{
+    bottom: 100%;
+    transition: 0.5s;
+    transition-delay: 0s1
+}
+.white__btn_line-reight{
+    top: -100%;
+    right: 0;
+    width: 4px;
+    height: 100%;
+    background: linear-gradient(180deg,transparent, #FFC22D);
+}
+.white__btn:hover .white__btn_line-reight{
+    top: 100%;
+    transition: 0.5s;
+    transition-delay: 0s1
+}
+
+.white__btn:hover{
+    box-shadow: 0 0 10px #FFC22D,0 0 40px #FFC22D;
+    background: #FFC22D;
+    color: #fff;
+    transition-delay: 1s;
+}
+
+
+
+
+
+.t2{
+    font-size: 32px;
+    color: #212B31;
+}
+.t3{
+    font-size: 18px;
+    color: #212B31;
+}
+
+
+.text1{
+    font-size: 20px;
+    color: #72787D;
+    line-height: 32px;
+}
+.text2{
+    font-size: 16px;
+    color: #72787D;
+    line-height: 24px;
+}
+
+.text3{
+    font-size: 18px;
+    color: #212B31;
+}
+
+/* black__setion: */
+.tx_1{
+    max-width: 429px;
+}
+.tx_2{
+    max-width: 532px;
+}
+.tx_3{
+    max-width: 549px;
+}
+/*  */
+
+.f_t{
+    margin-top: 17px;
+}

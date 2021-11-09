@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./ikon.svg" type="images/svg+xml">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./CSS/index.css">
+    <title>Выпускной проект</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__content flex">
+            <div class="logo"><img src="./img/logo.svg" alt="logo img"></div>
+            <div class="header__burger">
+                <span></span>
+            </div>
+            <div class="header__right flex">
+                <ul class="header__nav flex">
+                    <li class="header__item">
+                        <a href="#" class="header__link text2">Главная</a>
+                    </li>
+                    <li class="header__item">
+                        <a href="#we" class="header__link text2">О нас</a>
+                    </li>
+                    <li class="header__item">
+                        <a href="#produktion" class="header__link text2">Продукция</a>
+                    </li>
+                    <li class="header__item">
+                        <a href="#process" class="header__link text2">Процесс</a>
+                    </li>
+                    <li class="header__item">
+                        <a href="#security" class="header__link text2">Надёжность</a>
+                    </li>
+                    <li class="header__item">
+                        <a href="#stages" class="header__link text2">Клиенты</a>
+                    </li>
+                    <li class="header__item">
+                        <a href="#footer" class="header__link text2">Связаться с нами</a>
+                    </li>
+                </ul>
+                <button class="header__btn black__btn">
+                    <span class="btn__line black__btn_line-top"></span>
+                    <span class="btn__line black__btn_line-reight"></span>
+                    <span class="btn__line black__btn_line-bottom"></span>
+                    <span class="btn__line black__btn_line-left"></span>
+                    Заказать демо</button>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero container">
+        <h1 class="hero__title">Умная доставка материалов для сложных строительных площадок</h1>
+        <div class="hero__btns">
+            <button class="hero__btn black__btn">
+                <span class="btn__line black__btn_line-top"></span>
+                <span class="btn__line black__btn_line-reight"></span>
+                <span class="btn__line black__btn_line-bottom"></span>
+                <span class="btn__line black__btn_line-left"></span>
+                Заказать демо</button>
+            <button class="hero__btn white__btn">
+                <span class="btn__line white__btn_line-top"></span>
+                <span class="btn__line white__btn_line-reight"></span>
+                <span class="btn__line white__btn_line-bottom"></span>
+                <span class="btn__line white__btn_line-left"></span>
+                Подробнее</button>
+        </div>
+        <div class="hero__img1"><img src="./img/Hero__main.png" alt=""></div>
+    </section>
+    <div class="hero__img2 near">
+        <img class="hero__bus" src="./img/Hero__bus.png" alt="">
+        <img class="hero__bus" src="./img/Hero__bus.png" alt="">
+        <img class="hero__bus" src="./img/Hero__bus.png" alt="">
+    </div>
+
+    <section class="advantage container">
+        <div class="advantage__box flex">
+            <div class="advantage__block">
+                <div class="advantage__ikon">
+                    <img src="./img/advantage1.svg" alt="">
+                </div>
+                <h3 class="advantage__title t3">Повышение эффективности</h3>
+                <p class="advantage__text text2">Эффективные проекты стоят дешевле и завершаются в срок.</p>
+            </div>
+            <div class="advantage__block">
+                <div class="advantage__ikon">
+                    <img src="./img/advantage2.svg" alt="">
+                </div>
+                <h3 class="advantage__title t3">Снижение потерь</h3>
+                <p class="advantage__text text2">Тщательно отслеживайте движение стройматериалов, чтобы избежать краж и
+                    повреждений.</p>
+            </div>
+            <div class="advantage__block">
+                <div class="advantage__ikon">
+                    <img src="./img/advantage3.svg" alt="">
+                </div>
+                <h3 class="advantage__title t3">Повышение безопасности</h3>
+                <p class="advantage__text text2">Обеспечьте здоровье и благополучие людей, работающих на вашей площадке.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="chaos container">
+        <h2 class="chaos__title1 t2">Строительство - это хаос</h2>
+        <p class="chaos_text text1">Хаос может быть удивительной творческой силой, воздвигающая новые здания из пыли.
+            Хаос вызывает несчастные случаи, задержки и потери. Он вводит проекты в стресс и разочарование. Это
+            означает, что вы действительно не контролируете ситуацию.</p>
+        <div class="chaos__img">
+            <img src="./img/chaos.png" alt="">
+        </div>
+        <h2 class="chaos__title2 t2">Пора навести порядок на вашей стройплощадке и взять под контроль свой проект</h2>
+    </section>
+
+    <section class="care container flex" id="we">
+        <div class="care__content">
+            <h2 class="care__title t2">Мы заботимся о доставке на стройплощадку и о людях, которые на них рассчитывают
+            </h2>
+            <p class="care__text1 text1">Мы знаем всё о гордости от сияющего нового здания. Нам также известно всё о
+                разочаровании от попыток завершить проект в срок и в рамках бюджета.</p>
+            <span class="care__text2 text1">Мы здесь, чтобы помочь.</span>
+        </div>
+        <div class="care__img">
+            <img src="./img/care.png" alt="">
+        </div>
+    </section>
+
+    <section class="partners">
+        <div class="partners__content flex">
+            <div class="partners__logo"><img src="./img/partner1.png" alt="partners logo"></div>
+            <div class="partners__logo"><img src="./img/partner2.png" alt="partners logo"></div>
+            <div class="partners__logo"><img src="./img/partner3.png" alt="partners logo"></div>
+            <div class="partners__logo"><img src="./img/partner4.png" alt="partners logo"></div>
+            <div class="partners__logo"><img src="./img/partner5.png" alt="partners logo"></div>
+            <div class="partners__logo"><img src="./img/partner6.png" alt="partners logo"></div>
+        </div>
+
+    </section>
+
+    <section class="controle container" id="produktion">
+        <div class="main__box">
+            <h2 class="controle__m_title t2">Что такое СтройКонтроль?</h2>
+            <p class="controle__m_tx text1">СтройКонтроль - это интеллектуальная система управления доставкой,
+                предоставляющая информацию и контроль материалов на сложных строительных площадках в режиме реального
+                времени.</p>
+        </div>
+        <div class="controle__box flex">
+            <div class="controle__blok">
+                <h3 class="controle__title t3">Отслеживайте доставку по всей цепочке поставок</h3>
+                <p class="controle__tx text2">От поставщика до субподрядчика - вы всегда знаете, где находятся ваши
+                    материалы, благодаря чему обычные отходы уходят в прошлое и сокращаются несчастные случаи на месте.
+                </p>
+            </div>
+            <div class="controle__img">
+                <img src="./img/controle1.png" alt="">
+            </div>
+        </div>
+        <div class="controle__box flex">
+            <div class="controle__img">
+                <img src="./img/controle2.png" alt="">
+            </div>
+            <div class="controle__blok">
+                <h3 class="controle__title t3">Оптимизируйте и контролируйте свое прибытие на место</h3>
+                <p class="controle__tx text2">Транспортные средства доставки прибывают в фиксированные промежутки
+                    времени в заранее назначенные отсеки, где разгрузочное оборудование готово и ждет их.</p>
+            </div>
+        </div>
+        <div class="controle__box flex">
+            <div class="controle__blok">
+                <h3 class="controle__title t3">Возьмите под контроль данные в режиме реального времени</h3>
+                <p class="controle__tx text2">Интеллектуальная отчетность дает вам возможность принимать решения в
+                    зависимости от того, как обстоят дела в данный момент. Больше никаких ручных отчетов по заливке
+                    бетона или ежемесячной проверки 10.000 накладных со счетами, все это доступно онлайн без каких-либо
+                    усилий.</p>
+            </div>
+            <div class="controle__img">
+                <img src="./img/controle3.png" alt="">
+            </div>
+        </div>
+
+    </section>
+
+    <section class="delivery container" id="process">
+        <div class="delivery__m_content">
+            <h2 class="delivery__m_title t2">Доставка стала проще</h2>
+            <p class="delivery__m_tx text1">Мы позаботимся обо всех ваших различных поставках и их многочисленных
+                специализированных требованиях к разгрузке.</p>
+        </div>
+
+        <div class="delivery__box flex">
+            <div class="delivery__blok flex">
+                <div class="delivery__img">
+                    <div class="img"><img src="./img/delivery1.svg" alt=""></div>
+                </div>
+                <div class="delivery__blok_content">
+                    <h3 class="delivery__title t3">Бетон</h3>
+                    <p class="delivery__tx text2">Поставки бетона точно планируются, а его состояние контролируется, что
+                        обеспечивает максимально возможное время для установки.</p>
+                </div>
+            </div>
+            <div class="delivery__blok flex">
+                <div class="delivery__img">
+                    <div class="img"><img src="./img/delivery2.svg" alt=""></div>
+                </div>
+                <div class="delivery__blok_content">
+                    <h3 class="delivery__title t3">Утилизация отходов</h3>
+                    <p class="delivery__tx text2">Отходы контролируются и сортируются, а заполненность контейнеров
+                        отслеживается в цифровом виде.</p>
+                </div>
+            </div>
+            <div class="delivery__blok flex">
+                <div class="delivery__img">
+                    <div class="img"><img src="./img/delivery3.svg" alt=""></div>
+                </div>
+                <div class="delivery__blok_content">
+                    <h3 class="delivery__title t3">Опалубка</h3>
+                    <p class="delivery__tx text2">Вся опалубка отслеживается от прибытия до отправления, а ее состояние
+                        контролируется, что сводит к минимуму потери и повреждения.</p>
+                </div>
+            </div>
+            <div class="delivery__blok flex">
+                <div class="delivery__img">
+                    <div class="img"><img src="./img/delivery4.svg" alt=""></div>
+                </div>
+                <div class="delivery__blok_content">
+                    <h3 class="delivery__title t3">Сборные панели</h3>
+                    <p class="delivery__tx text2">Сборные панели прибывают по очереди, их хранение на месте
+                        отслеживается, а их установка планируется и контролируется.</p>
+                </div>
+            </div>
+            <div class="delivery__blok flex">
+                <div class="delivery__img">
+                    <div class="img"><img src="./img/delivery5.svg" alt=""></div>
+                </div>
+                <div class="delivery__blok_content">
+                    <h3 class="delivery__title t3">Фасады</h3>
+                    <p class="delivery__tx text2">Элементы фасада поступают последовательно, их сборка контролируется, а
+                        перемещение отслеживается.</p>
+                </div>
+            </div>
+            <div class="delivery__blok flex">
+                <div class="delivery__img">
+                    <div class="img"><img src="./img/delivery6.svg" alt=""></div>
+                </div>
+                <div class="delivery__blok_content">
+                    <h3 class="delivery__title t3">Отделка</h3>
+                    <p class="delivery__tx text2">Материалы поступают точно в срок, маркируются и детально отслеживаются
+                        для установки.</p>
+                </div>
+            </div>
+            <div class="delivery__blok flex">
+                <div class="delivery__img">
+                    <div class="img"><img src="./img/delivery7.svg" alt=""></div>
+                </div>
+                <div class="delivery__blok_content">
+                    <h3 class="delivery__title t3">Строительные леса</h3>
+                    <p class="delivery__tx text2">Строительные леса отслеживаются от получения до хранения,
+                        использования и возврата, поэтому всегда ясно, что на месте и где.</p>
+                </div>
+            </div>
+            <div class="delivery__blok flex">
+                <div class="delivery__img">
+                    <div class="img"><img src="./img/delivery8.svg" alt=""></div>
+                </div>
+                <div class="delivery__blok_content">
+                    <h3 class="delivery__title t3">Оборудование</h3>
+                    <p class="delivery__tx text2">Оборудование и операторы гарантированно доступны в случае
+                        необходимости, а их рабочее состояние отслеживается.</p>
+                </div>
+            </div>
+            <div class="delivery__blok flex">
+                <div class="delivery__img">
+                    <div class="img"><img src="./img/delivery9.svg" alt=""></div>
+                </div>
+                <div class="delivery__blok_content">
+                    <h3 class="delivery__title t3"><b> Электрика и</b> сантехника</h3>
+                    <p class="delivery__tx text2">Доставка осуществляется в точной последовательности для сложной
+                        установки, что сокращает или устраняет необходимость в хранении.</p>
+                </div>
+            </div>
+        </div>
+        <p class="delivery__footer text1">
+            ...<span class="delivery__f_tx"> и все остальные материалы,</span> которые поступают или покидают вашу
+            площадку
+        </p>
+    </section>
+
+    <section class="security container" id="security">
+        <div class="security__m_content">
+            <h2 class="security__m_title t2">Надёжность</h2>
+            <p class="security__m_tx text1">Благодаря надёжному строительству выигрывают все - муниципальные органы
+                выполняют свои обязанности перед гражданами, инвесторы получают сертификаты своих проектов, а
+                генеральные подрядчики получают повышенную репутацию.</p>
+        </div>
+        <div class="security__box flex">
+            <div class="security__blok">
+                <div class="security__img">
+                    <img src="./img/security_1.svg" alt="">
+                </div>
+                <h3 class="security__title t3">Сниженное загрязнение</h3>
+                <p class="security__tx1 text2">При оптимизации логистики требуется меньше поездок, что приводит к
+                    снижению выбросов CO2. Выбрасываемый CO2 контролируется, что позволяет ставить цели и вносить
+                    ощутимые улучшения.</p>
+            </div>
+            <div class="security__blok">
+                <div class="security__img">
+                    <img src="./img/security_2.svg" alt="">
+                </div>
+                <h3 class="security__title t3">Улучшенное управление отходами</h3>
+                <p class="security__tx2 text2">Упрощается сортировка отходов, автоматизируется утилизация отходов, а
+                    поврежденные материалы при необходимости используются повторно, что снижает затраты и стимулирует
+                    переработку и повторное использование.</p>
+            </div>
+            <div class="security__blok">
+                <div class="security__img">
+                    <img src="./img/security_3.svg" alt="">
+                </div>
+                <h3 class="security__title t3">Улучшенное влияние на общество</h3>
+                <p class="security__tx3 text2">Уменьшаются проблемы с дорожным движением и шумовое загрязнение, что
+                    улучшает жизнь местного сообщества. Улучшенное обращение с материалами и хранение означает, что
+                    рабочие также лучше защищены.</p>
+            </div>
+        </div>
+        <div class="security__footer flex">
+            <div class="security__f_img">
+                <img src="./img/security_f.svg" alt="">
+            </div>
+            <p class="security__f_tx text3"><b> Надёжная конструкция</b> СтройКонтроль входит в стандартную
+                комплектацию.</p>
+            <button class="security__f_btn white__btn">
+                <span class="btn__line white__btn_line-top"></span>
+                <span class="btn__line white__btn_line-reight"></span>
+                <span class="btn__line white__btn_line-bottom"></span>
+                <span class="btn__line white__btn_line-left"></span>
+                Подробнее</button>
+        </div>
+    </section>
+
+    <section class="black">
+        <div class="black__content_top">
+            <div class="top__block">
+                <h2 class="black__m_title t2">Создан для строительства</h2>
+                <h3 class="top_titls t3">Хорошо виден в любых условиях</h3>
+                <p class="top_tx text2 tx_1">Независимо от того, солнечно или темно, найдется подходящий режим экрана
+                </p>
+                <h3 class="top_titls t3">Поддержка международных языков</h3>
+                <p class="top_tx text2 tx_2">На современной стройке работают люди со всего мира. Язык не является
+                    проблемой для СтройКонтроля.</p>
+                <h3 class="top_titls t3">Работает на любом устройстве - мобильном телефоне, планшете, ноутбуке</h3>
+                <p class="top_tx text2 tx_3">Люди на разных должностях используют разные устройства. СтройКонтроль
+                    автоматически настраивается в соответствии с требованиями. Вы также можете проецировать панели
+                    мониторинга живого проекта на настенные экраны.</p>
+                <div class="black__btns">
+                    <button class="black_b white__btn">
+                        <span class="btn__line white__btn_line-top"></span>
+                        <span class="btn__line white__btn_line-reight"></span>
+                        <span class="btn__line white__btn_line-bottom"></span>
+                        <span class="btn__line white__btn_line-left"></span>
+                        Заказать демо</button>
+                    <button class="black_b2 black__btn">
+                        <span class="btn__line black__btn_line-top"></span>
+                        <span class="btn__line black__btn_line-reight"></span>
+                        <span class="btn__line black__btn_line-bottom"></span>
+                        <span class="btn__line black__btn_line-left"></span>
+                        Подробнее</button>
+                </div>
+            </div>
+            <div class="black__m_img">
+                <img src="./img/black__section_m.png" alt="">
+            </div>
+        </div>
+        <div class="black__content_bottom flex">
+            <div class="bottom__blok">
+                <div class="black__img">
+                    <img src="./img/black__section_1.svg" alt="">
+                </div>
+                <h3 class="bottom__title t3">Привлечение субподрядчика</h3>
+                <p class="bottom__tx text2">Для выполнения этой работы вам понадобятся ваши субподрядчики. У нас есть
+                    проверенный и надежный процесс для этого.</p>
+            </div>
+            <div class="bottom__blok">
+                <div class="black__img">
+                    <img src="./img/black__section_2.svg" alt="">
+                </div>
+                <h3 class="bottom__title t3">Привлечены ключевые поставщики</h3>
+                <p class="bottom__tx text2">У нас уже есть ключевые поставщики, использующие программное обеспечение,
+                    что обеспечивает еще больший контроль и прозрачность информации.</p>
+            </div>
+            <div class="bottom__blok">
+                <div class="black__img">
+                    <img src="./img/black__section_3.svg" alt="">
+                </div>
+                <h3 class="bottom__title t3">100% соответствие</h3>
+                <p class="bottom__tx text2">У нас есть безупречный список обеспечения соответствия требованиям, которые
+                    необходимы вам для успешного выполнения проекта с помощью СтройКонтроль.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="stages container" id="stages">
+        <div class="stages__content flex">
+            <div class="content__left">
+                <h2 class="stages__m_title t2">Как с нами работать</h2>
+                <p class="stages__m_tx text1">Начать работу со СтройКонтроль легко, достаточно заказать демо-версию.</p>
+                <div class="stages__img">
+                    <img src="./img/stages.png" alt="">
+                </div>
+            </div>
+            <div class="content__right">
+                <div class="stages__blok">
+                    <div class="punkt">1</div>
+                    <div class="stages__blok_cont">
+                        <h3 class="stages__title t3">Заказать демо</h3>
+                        <div class="stages__tx text2">Вы увидите презентацию, в которой подробно объясняется, как
+                            работает СтройКонтроль для решения задач строительной логистики в таких сложных проектах,
+                            как ваш.</div>
+                    </div>
+                </div>
+                <div class="stages__blok">
+                    <div class="punkt">2</div>
+                    <div class="stages__blok_cont">
+                        <h3 class="stages__title t3">Согласование сделки</h3>
+                        <div class="stages__tx text2">Мы обсудим ваш строительный проект и предложим реализацию
+                            СтройКонтроль, которая идеально соответствует вашим потребностям и будет иметь для вас
+                            ценность.</div>
+                    </div>
+                </div>
+                <div class="stages__blok">
+                    <div class="punkt">3</div>
+                    <div class="stages__blok_cont">
+                        <h3 class="stages__title t3">Подготовка</h3>
+                        <div class="stages__tx text2">Мы полностью обучаем вашу команду тому, как использовать систему,
+                            с помощью онлайн-видеоуроков и обеспечиваем постоянную всестороннюю поддержку.</div>
+                    </div>
+                </div>
+                <div class="stages__blok">
+                    <div class="punkt">4</div>
+                    <div class="stages__blok_cont">
+                        <h3 class="stages__title t3">Внедрение и интеграция</h3>
+                        <div class="stages__tx text2">Мы настраиваем программное обеспечение так, чтобы оно точно
+                            моделировало вашу площадку, а затем помогаем вам интегрировать его с программным
+                            обеспечением Business Intelligence для получения новых мощных аналитических данных.</div>
+                    </div>
+                </div>
+                <div class="stages__btns">
+                    <button class="stages__btn black__btn">
+                        <span class="btn__line black__btn_line-top"></span>
+                        <span class="btn__line black__btn_line-reight"></span>
+                        <span class="btn__line black__btn_line-bottom"></span>
+                        <span class="btn__line black__btn_line-left"></span>
+                        Заказать демо</button>
+                    <button class="stages__btn white__btn">
+                        <span class="btn__line white__btn_line-top"></span>
+                        <span class="btn__line white__btn_line-reight"></span>
+                        <span class="btn__line white__btn_line-bottom"></span>
+                        <span class="btn__line white__btn_line-left"></span>
+                        Подробнее</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="comment container">
+        <div class="content__top">
+            <h2 class="m_title t2">Почему нужно выбрать нас?</h2>
+            <p class="m_tx text1">В строительной логистике всегда есть возможности для улучшения.</p>
+        </div>
+
+        <div class="comment__content flex">
+            <div class="content__left">
+                <div class="blok flex">
+                    <div class="point__img">
+                        <img src="./img/point1.svg" alt="">
+                    </div>
+                    <div class="blok_cont">
+                        <h3 class="title t3">Отмеченное наградами ПО</h3>
+                        <div class="tx text2">Всемирно известное программное обеспечение, признанное государственными
+                            учреждениями, инновационными группами и техническими организациями</div>
+                    </div>
+                </div>
+                <div class="blok flex">
+                    <div class="point__img">
+                        <img src="./img/point2.svg" alt="">
+                    </div>
+                    <div class="blok_cont">
+                        <h3 class="title t3">Большой потенциал</h3>
+                        <div class="tx2 text2">Входит в топ-25 самых многообещающих стартапов ConTech по версии Cemex
+                            Ventures, Moscow Consulting Group, BuiltWorld и PwC</div>
+                    </div>
+                </div>
+                <div class="blok flex">
+                    <div class="point__img">
+                        <img src="./img/point3.svg" alt="">
+                    </div>
+                    <div class="blok_cont">
+                        <h3 class="title t3">Выбор лидеров рынка</h3>
+                        <div class="tx3 text2">Рекомендуемый поставщик технологий для 3 из 10 ведущих генеральных
+                            подрядчиков в Европе</div>
+                    </div>
+                </div>
+                <div class="blok flex">
+                    <div class="point__img">
+                        <img src="./img/point4.svg" alt="">
+                    </div>
+                    <div class="blok_cont">
+                        <h3 class="title t3">Устойчивое развитие и безопасность</h3>
+                        <div class="tx text2">Способствует снижению выбросов CO2 и повышает безопасность на месте</div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="comment__swiper swiper-container">
+                <div class="comment__wrapper swiper-wrapper">
+                    <div class="content__right_comm swiper-slide">
+                        <p class="comment__text">Мы видим огромный потенциал в таких решениях, как СтройКонтроль, и
+                            хотим использовать их для улучшения наших строительных процессов.</p>
+                        <div class="comment__avtor">
+                            <div class="comment__avtors_img">
+                                <img src="./img/comment.png" alt="">
+                            </div>
+
+                            <div class="comment__avtors_inf">
+                                <h4 class="avtors__name">Волков Матвей</h4>
+                                <p class="avtors__work text2">Генеральный директор ООО “СпецСтрой”</p>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="content__right_comm swiper-slide">
+                        <p class="comment__text">Мы видим огромный потенциал в таких решениях, как СтройКонтроль.</p>
+                        <div class="comment__avtor">
+                            <div class="comment__avtors_img">
+                                <img src="./img/comment.png" alt="">
+                            </div>
+                            <div class="comment__avtors_inf">
+                                <h4 class="avtors__name">Волков Матвей</h4>
+                                <p class="avtors__work text2">Генеральный директор ООО “СпецСтрой”</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+
+        <div class="content__bottom flex">
+            <div class="bottom__blok">
+                <div class="bottom__img"><img src="./img/sertifikate1.svg" alt=""></div>
+                <p class="sertifikate__tx text2">50 лучших инструментов ConTech</p>
+            </div>
+            <div class="bottom__blok">
+                <div class="bottom__img"><img src="./img/sertifikate2.svg" alt=""></div>
+                <p class="sertifikate__tx text2">25 лучших стартапов ConTech в ЕС</p>
+            </div>
+            <div class="bottom__blok">
+                <div class="bottom__img"><img src="./img/sertifikate3.svg" alt=""></div>
+                <p class="sertifikate__tx text2">50 лучших стартапов Global ConTech</p>
+            </div>
+            <div class="bottom__blok">
+                <div class="bottom__img"><img src="./img/sertifikate4.svg" alt=""></div>
+                <p class="sertifikate__tx4 text2">2018 - 50 лучших стартапов ЕС PropTech</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="yellow container">
+        <div class="yellow__content">
+            <h2 class="yellow__title">Готовы оптимизировать логистику доставки для вашего сложного проекта?</h2>
+            <div class="yellow__btns">
+                <button class="yellow__btn black__btn">
+                    <span class="btn__line black__btn_line-top"></span>
+                    <span class="btn__line black__btn_line-reight"></span>
+                    <span class="btn__line black__btn_line-bottom"></span>
+                    <span class="btn__line black__btn_line-left"></span>
+                    Заказать демо</button>
+                <button class="yellow__btn white__btn">
+                    <span class="btn__line white__btn_line-top"></span>
+                    <span class="btn__line white__btn_line-reight"></span>
+                    <span class="btn__line white__btn_line-bottom"></span>
+                    <span class="btn__line white__btn_line-left"></span>
+                    Связаться с нами</button>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer">
+        <div class="top__box flex">
+            <div class="top__blok">
+                <div class="footer__title">
+                    <img src="./img/logo.svg" alt="logo img">
+                </div>
+                <p class="text2">г. Москва</p>
+                <p class="footer__tx_2 text2">Пресненская наб., 88, оф. 527</p>
+                <p class="footer__tx_3 text2">info@stroycontrol.ru +7 (945) 123-45-67</p>
+                <div class="fb">
+                    <img src="./img/facebook.svg" alt="facebook ikon">
+                </div>
+            </div>
+            <div class="top__blok">
+                <h4 class="footer__title f_t">Наш продукт</h4>
+                <p class="footer__tx text2">Процесс</p>
+                <p class="footer__tx text2">Продукция</p>
+            </div>
+            <div class="top__blok">
+                <h4 class="footer__title f_t">Обслуживание</h4>
+                <p class="footer__tx text2">Клиенты</p>
+                <p class="footer__tx text2">Надёжность</p>
+            </div>
+            <div class="top__blok">
+                <h4 class="footer__title f_t">Компания</h4>
+                <p class="footer__tx text2">О нас</p>
+                <p class="footer__tx text2">Связаться с нами</p>
+            </div>
+
+        </div>
+        <hr class="footer__line">
+        <div class="bottom__box flex">
+            <p class="footer__tx text2">© 2020 СтройКонтроль, Все права защищены.</p>
+            <p class="footer__tx text2">Политика конфиденциальности</p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./jquery-3.5.1.slim.min.js"></script>
+    <script src="./script.js"></script>
+
+
+</body>
+
+</html>

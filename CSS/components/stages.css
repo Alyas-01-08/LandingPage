@@ -1,0 +1,31 @@
+.stages__content{
+    justify-content: space-between;
+    margin: 143px auto 96px auto;
+}
+
+
+.stages__m_tx{
+    max-width: 460px;
+    margin: 2.9% auto 8.7% auto;
+}
+
+.stages__blok{
+    display: flex;
+}
+.punkt{
+    width: 40px;
+    height: 40px;
+    border: 1px solid #DADEDF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 4.5%;
+
+}
+
+.stages__tx{
+    max-width: 448px;
+    margin: 10px auto 30px auto;
+}
+
+

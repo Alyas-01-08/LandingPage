@@ -1,0 +1,34 @@
+.main__box{
+    text-align: center;
+}
+
+.controle__box{
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.controle__m_title{
+    margin: 136px auto 21px auto; 
+}
+.controle__m_tx{
+    max-width: 827px;
+    margin: 0 auto;
+}
+
+.controle__tx{
+    max-width: 500px;
+}
+
+.controle__title{
+    max-width: 550px;
+    margin-bottom: 19px;
+}
+
+.controle__img{
+    margin: 28px auto;
+}
+
+.controle__blok{
+    margin: 28px auto;
+}

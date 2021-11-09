@@ -1,0 +1,15 @@
+.yellow__content{
+    max-width: 1056px;
+    margin: 0 15px;
+    background:url('../../img/yellow.png');
+    text-align: center;
+    padding: 11% 3.6%;
+}
+
+.yellow__title{
+    font-size: 48px;
+    line-height: 64px;
+    color: #212B31;
+    margin: 0 0 54px 0;
+       
+}

@@ -1,0 +1,41 @@
+
+.delivery__m_content{
+    text-align: center;
+    max-width: 643px;
+    margin: 0 auto;
+}
+.delivery__m_tx{
+    margin: 21px auto 26.5px auto;
+}
+.delivery__box{
+    justify-content: space-around;
+    margin-bottom: 5.5px;
+}
+.delivery__blok{
+    max-width: 334px;
+    margin: 16.5px auto;
+
+}
+.delivery__blok_content{
+    max-width: 270px;
+    margin-left: 16px;
+}
+
+.delivery__footer{
+    text-align: center;
+}
+
+.delivery__f_tx{
+    color: #212B31;
+    position: relative;
+}
+.delivery__f_tx::after{
+    position: absolute;
+    content: "";
+    background: #FFD042;
+    width: 284px;
+    height: 16px;
+    top: 13px;
+    left: 0;
+    z-index: -1;    
+}
